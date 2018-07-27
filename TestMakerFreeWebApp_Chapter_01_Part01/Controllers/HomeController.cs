@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace TestMakerFree.Controllers
+namespace TestMakerFreeWebApp.Controllers
 {
     public class HomeController : Controller
     {

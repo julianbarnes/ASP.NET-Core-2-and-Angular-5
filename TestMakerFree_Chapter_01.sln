@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMakerFreeWebApp_Chapter_01_Part01", "TestMakerFreeWebApp_Chapter_01_Part01\TestMakerFreeWebApp_Chapter_01_Part01.csproj", "{A686D3E4-A404-4BC9-BAE7-5C43898080EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMakerFreeWebApp", "TestMakerFreeWebApp_Chapter_01_Part01\TestMakerFreeWebApp.csproj", "{A686D3E4-A404-4BC9-BAE7-5C43898080EC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMakerFreeWebApp_Chapter_01_Part02", "TestMakerFreeWebApp_Chapter_01_Part02\TestMakerFreeWebApp_Chapter_01_Part02.csproj", "{5CAFB74D-416F-46AB-9C4C-A4E98F33703D}"
 EndProject
@@ -26,7 +26,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5F8992FB-721E-4C7A-845A-FD9890E09102}
 		LessCompiler = 5621aaf8-44d9-4969-ac01-f80d257429d9,0e97b860-86b8-4500-9865-a2321ce79b19,0527878e-140d-44d7-bb97-82c0ead2d261
+		SolutionGuid = {5F8992FB-721E-4C7A-845A-FD9890E09102}
 	EndGlobalSection
 EndGlobal
