@@ -17,6 +17,16 @@
                         <span class='glyphicon glyphicon-home'></span> Home
                     </a>
                 </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/about']">
+                        <span class='glyphicon glyphicon-info-sign'></span> About
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/login']">
+                        <span class='glyphicon glyphicon-log-in'></span> Login
+                    </a>
+                </li>
             </ul>
         </div>
     </div>

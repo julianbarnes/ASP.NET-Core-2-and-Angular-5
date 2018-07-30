@@ -37,7 +37,7 @@ import { LoginComponent } from './components/login/login.component';
             { path: 'quiz/:id', component: QuizComponent },
             { path: 'about', component: AboutComponent },
             { path: 'login', component: LoginComponent },
-            { path: '**', redirectTo: 'home' }      
+            { path: '**', component: PageNotFoundComponent }      
         ])
     ]
 })
