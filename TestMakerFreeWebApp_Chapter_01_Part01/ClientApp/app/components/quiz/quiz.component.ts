@@ -30,5 +30,8 @@ export class QuizComponent {
             console.log("Invalid id: routing back to home...");
             this.router.navigate(["home"]);
         }
-    }
+	}
+	onEdit() {
+		this.router.navigate(["quiz/edit", this.quiz.Id]);
+	}
 }

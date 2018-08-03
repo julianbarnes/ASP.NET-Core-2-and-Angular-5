@@ -11,23 +11,28 @@
         </div>
         <div class='clearfix'></div>
         <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-                <li [routerLinkActive]="['link-active']">
-                    <a [routerLink]="['/home']">
-                        <span class='glyphicon glyphicon-home'></span> Home
-                    </a>
-                </li>
-                <li [routerLinkActive]="['link-active']">
-                    <a [routerLink]="['/about']">
-                        <span class='glyphicon glyphicon-info-sign'></span> About
-                    </a>
-                </li>
-                <li [routerLinkActive]="['link-active']">
-                    <a [routerLink]="['/login']">
-                        <span class='glyphicon glyphicon-log-in'></span> Login
-                    </a>
-                </li>
-            </ul>
+			<ul class='nav navbar-nav'>
+				<li [routerLinkActive]="['link-active']">
+					<a [routerLink]="['/home']">
+						<span class='glyphicon glyphicon-home'></span> Home
+					</a>
+				</li>
+				<li [routerLinkActive]="['link-active']">
+					<a [routerLink]="['/about']">
+						<span class='glyphicon glyphicon-info-sign'></span> About
+					</a>
+				</li>
+				<li [routerLinkActive]="['link-active']">
+					<a [routerLink]="['/login']">
+						<span class='glyphicon glyphicon-log-in'></span> Login
+					</a>
+				</li>
+				<li [routerLinkActive]="['link-active']">
+					<a [routerLink]="['/quiz/create']">
+						<span class='glyphicon glyphicon-log-in'></span> Create Quiz
+					</a>
+				</li>
+			</ul>
         </div>
     </div>
 </div>
